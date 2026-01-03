@@ -16,15 +16,24 @@ export default function Header() {
       <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center">
-            <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-teal-500 bg-clip-text text-transparent">
-              Ian Barwell
-            </span>
+            <a 
+              href="#home"
+              className="border-2 border-gray-300 rounded-lg px-4 py-2 inline-flex items-center space-x-2 transition-all duration-200 hover:border-blue-500 hover:shadow-lg transform hover:-translate-y-0.5"
+            >
+              <span className="text-xl font-bold bg-gradient-to-r from-blue-600 to-teal-500 bg-clip-text text-transparent" style={{ fontFamily: 'Georgia, serif' }}>
+                IJB
+              </span>
+              <span className="text-gray-400 text-sm">|</span>
+              <span className="text-gray-700 font-medium text-sm">
+                Affiliate Marketer
+              </span>
+            </a>
           </div>
 
           <div className="hidden md:block">
             <div className="flex items-center space-x-8">
               {navigation.map((item) => (
-                <a
+                
                   key={item.name}
                   href={item.href}
                   className="text-gray-700 hover:text-blue-600 transition-colors duration-200 font-medium"
@@ -32,7 +41,7 @@ export default function Header() {
                   {item.name}
                 </a>
               ))}
-              <a
+              
                 href="#contact"
                 className="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition-all duration-200 hover:shadow-lg transform hover:-translate-y-0.5"
               >
@@ -56,7 +65,7 @@ export default function Header() {
         <div className="md:hidden bg-white border-t">
           <div className="space-y-1 px-4 pb-3 pt-2">
             {navigation.map((item) => (
-              <a
+              
                 key={item.name}
                 href={item.href}
                 className="block px-3 py-2 text-gray-700 hover:text-blue-600 hover:bg-gray-50 rounded-md transition-colors"
@@ -65,7 +74,7 @@ export default function Header() {
                 {item.name}
               </a>
             ))}
-            <a
+            
               href="#contact"
               className="block px-3 py-2 text-center bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors"
               onClick={() => setMobileMenuOpen(false)}
