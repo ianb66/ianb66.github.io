@@ -20,7 +20,7 @@ export default function Header() {
               href="#home"
               className="border-2 border-gray-300 rounded-lg px-4 py-2 inline-flex items-center space-x-2 transition-all duration-200 hover:border-blue-500 hover:shadow-lg transform hover:-translate-y-0.5"
             >
-              <span className="text-xl font-bold bg-gradient-to-r from-blue-600 to-teal-500 bg-clip-text text-transparent font-serif">
+              <span className="text-xl font-bold bg-gradient-to-r from-blue-600 to-teal-500 bg-clip-text text-transparent">
                 IJB
               </span>
               <span className="text-gray-400 text-sm">|</span>
@@ -29,7 +29,6 @@ export default function Header() {
               </span>
             </a>
           </div>
-
           <div className="hidden md:block">
             <div className="flex items-center space-x-8">
               {navigation.map((item) => (
@@ -49,7 +48,6 @@ export default function Header() {
               </a>
             </div>
           </div>
-
           <div className="md:hidden">
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -60,7 +58,6 @@ export default function Header() {
           </div>
         </div>
       </nav>
-
       {mobileMenuOpen && (
         <div className="md:hidden bg-white border-t">
           <div className="space-y-1 px-4 pb-3 pt-2">
