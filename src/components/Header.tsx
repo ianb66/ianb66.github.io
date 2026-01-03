@@ -16,18 +16,9 @@ export default function Header() {
       <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center">
-            <a 
-              href="#home"
-              className="border-2 border-gray-300 rounded-lg px-4 py-2 inline-flex items-center space-x-2 transition-all duration-200 hover:border-blue-500 hover:shadow-lg transform hover:-translate-y-0.5"
-            >
-              <span className="text-xl font-bold bg-gradient-to-r from-blue-600 to-teal-500 bg-clip-text text-transparent">
-                IJB
-              </span>
-              <span className="text-gray-400 text-sm">|</span>
-              <span className="text-gray-700 font-medium text-sm">
-                Affiliate Marketer
-              </span>
-            </a>
+            <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-teal-500 bg-clip-text text-transparent">
+              Ian Barwell
+            </span>
           </div>
           <div className="hidden md:block">
             <div className="flex items-center space-x-8">
