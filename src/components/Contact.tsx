@@ -39,13 +39,13 @@ export default function Contact() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <div className="inline-flex items-center space-x-2 bg-blue-100 text-blue-700 px-4 py-2 rounded-full text-sm font-medium mb-4">
-            <span>Get In Touch</span>
+            <span>Connect With Ian</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Let's Grow Your Business Together
+            Let's Build Your Business Together
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Ready to accelerate your growth? Schedule a free consultation and discover how we can help you achieve your goals.
+            Ready to join 50K+ entrepreneurs building profitable businesses? Get your free resources, join my community, and start your journey today.
           </p>
         </div>
 
@@ -53,15 +53,15 @@ export default function Contact() {
           <div className="space-y-8">
             <div>
               <h3 className="text-2xl font-bold text-gray-900 mb-6">
-                Why Choose Velocity Digital?
+                Why Join My Community?
               </h3>
               <ul className="space-y-4">
                 {[
-                  'Data-driven strategies backed by proven results',
-                  'Dedicated account management and support',
-                  'Transparent reporting and clear communication',
-                  'Customized solutions tailored to your business',
-                  'Industry-leading expertise across all channels',
+                  'Proven frameworks tested on a $2.3M/year business',
+                  'Direct access to my resources and exclusive training',
+                  'Real results from real people (50K+ community members)',
+                  'Transparent, no-hype approach to entrepreneurship',
+                  'Supportive community of like-minded entrepreneurs',
                 ].map((item, index) => (
                   <li key={index} className="flex items-start">
                     <div className="w-6 h-6 bg-gradient-to-br from-blue-600 to-teal-500 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
@@ -79,8 +79,8 @@ export default function Contact() {
                   <Mail className="text-blue-600" size={24} />
                 </div>
                 <div>
-                  <div className="font-semibold text-gray-900 mb-1">Email Us</div>
-                  <div className="text-gray-600">hello@velocitydigital.com</div>
+                  <div className="font-semibold text-gray-900 mb-1">Email</div>
+                  <div className="text-gray-600">ian@ianbarwell.com</div>
                 </div>
               </div>
 
@@ -89,8 +89,8 @@ export default function Contact() {
                   <Phone className="text-teal-600" size={24} />
                 </div>
                 <div>
-                  <div className="font-semibold text-gray-900 mb-1">Call Us</div>
-                  <div className="text-gray-600">+1 (555) 123-4567</div>
+                  <div className="font-semibold text-gray-900 mb-1">Follow Me</div>
+                  <div className="text-gray-600">@ianbarwell on all platforms</div>
                 </div>
               </div>
 
@@ -99,10 +99,10 @@ export default function Contact() {
                   <MapPin className="text-blue-600" size={24} />
                 </div>
                 <div>
-                  <div className="font-semibold text-gray-900 mb-1">Visit Us</div>
+                  <div className="font-semibold text-gray-900 mb-1">Based In</div>
                   <div className="text-gray-600">
-                    123 Marketing Boulevard<br />
-                    San Francisco, CA 94105
+                    Digital Nomad<br />
+                    Currently in: Miami, FL
                   </div>
                 </div>
               </div>
@@ -171,7 +171,7 @@ export default function Contact() {
 
                 <div>
                   <label htmlFor="service" className="block text-sm font-medium text-gray-700 mb-2">
-                    Service Interested In *
+                    I'm Most Interested In *
                   </label>
                   <select
                     id="service"
@@ -181,20 +181,20 @@ export default function Contact() {
                     onChange={handleChange}
                     className="w-full px-4 py-3 rounded-lg border-2 border-gray-200 focus:border-blue-600 focus:outline-none transition-colors"
                   >
-                    <option value="">Select a service</option>
-                    <option value="seo">SEO Optimization</option>
-                    <option value="ppc">PPC Advertising</option>
-                    <option value="social">Social Media Marketing</option>
-                    <option value="analytics">Analytics & Insights</option>
-                    <option value="cro">Conversion Rate Optimization</option>
+                    <option value="">Select a topic</option>
+                    <option value="affiliate">Affiliate Marketing</option>
+                    <option value="products">Digital Products</option>
                     <option value="email">Email Marketing</option>
+                    <option value="traffic">Traffic & Growth</option>
+                    <option value="community">Community Building</option>
+                    <option value="scaling">Business Scaling</option>
                     <option value="other">Other</option>
                   </select>
                 </div>
 
                 <div>
                   <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
-                    Tell Us About Your Project *
+                    Tell Me About Your Goals *
                   </label>
                   <textarea
                     id="message"
@@ -204,7 +204,7 @@ export default function Contact() {
                     onChange={handleChange}
                     rows={4}
                     className="w-full px-4 py-3 rounded-lg border-2 border-gray-200 focus:border-blue-600 focus:outline-none transition-colors resize-none"
-                    placeholder="Tell us about your goals and challenges..."
+                    placeholder="Where are you now and what's your biggest challenge? What are you hoping to achieve?"
                   />
                 </div>
 
@@ -212,7 +212,7 @@ export default function Contact() {
                   type="submit"
                   className="w-full bg-gradient-to-r from-blue-600 to-teal-500 text-white px-8 py-4 rounded-lg hover:shadow-xl transition-all duration-200 transform hover:-translate-y-1 font-medium flex items-center justify-center space-x-2"
                 >
-                  <span>Send Message</span>
+                  <span>Connect With Ian</span>
                   <Send size={18} />
                 </button>
               </form>

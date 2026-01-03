@@ -3,40 +3,40 @@ import { Linkedin, Twitter } from 'lucide-react';
 export default function Team() {
   const team = [
     {
-      name: 'Alexandra Reed',
-      position: 'Founder & CEO',
-      bio: '15+ years leading digital transformation for Fortune 500 companies',
-      expertise: 'Strategy & Leadership',
+      name: 'Ian Barwell',
+      position: 'Founder & Entrepreneur',
+      bio: 'Built a $2.3M/year business from scratch through affiliate marketing and digital products. 12+ years of proven results.',
+      expertise: 'Personal Brand',
     },
     {
-      name: 'Marcus Johnson',
-      position: 'Head of SEO',
-      bio: 'Former Google analyst with proven track record of ranking success',
-      expertise: 'Search Engine Optimization',
+      name: 'Russell Brunson',
+      position: 'Mentor - Funnel Architecture',
+      bio: 'Pioneer of modern sales funnels. His frameworks shaped my entire approach to online business.',
+      expertise: 'Sales Funnels',
     },
     {
-      name: 'Sophia Martinez',
-      position: 'Creative Director',
-      bio: 'Award-winning designer crafting campaigns that convert',
-      expertise: 'Brand & Design',
+      name: 'Pat Flynn',
+      position: 'Mentor - Content & Community',
+      bio: 'Master of building businesses on transparency and audience trust. Inspired my community-first approach.',
+      expertise: 'Community Building',
     },
     {
-      name: 'James Anderson',
-      position: 'VP of Paid Media',
-      bio: 'Managed $50M+ in ad spend with consistently high ROAS',
-      expertise: 'PPC & Paid Advertising',
+      name: 'Tim Ferriss',
+      position: 'Mentor - Automation & Systems',
+      bio: 'His principles of outsourcing and systemization helped me scale beyond my own time.',
+      expertise: 'Automation',
     },
     {
-      name: 'Olivia Chen',
-      position: 'Content Strategist',
-      bio: 'Storyteller who creates content that resonates and ranks',
-      expertise: 'Content Marketing',
+      name: 'Amy Porterfield',
+      position: 'Mentor - Email & Launches',
+      bio: 'The gold standard in email marketing and product launches. Her strategies multiplied my revenue.',
+      expertise: 'Email Marketing',
     },
     {
-      name: 'Daniel Brooks',
-      position: 'Analytics Lead',
-      bio: 'Data scientist turning insights into actionable strategies',
-      expertise: 'Data & Analytics',
+      name: 'My 50K Community Members',
+      position: 'Collaborators & Supporters',
+      bio: 'Entrepreneurs building businesses together. They push me to be better every single day.',
+      expertise: 'Collective Wisdom',
     },
   ];
 
@@ -45,13 +45,13 @@ export default function Team() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <div className="inline-flex items-center space-x-2 bg-teal-100 text-teal-700 px-4 py-2 rounded-full text-sm font-medium mb-4">
-            <span>Our Team</span>
+            <span>My Inspiration</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Meet the Experts Behind Your Success
+            Mentors, Influences & Community
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            A passionate team of strategists, creators, and analysts dedicated to driving your growth.
+            I stand on the shoulders of giants. These mentors and my community push me to continuously improve and share more value with you.
           </p>
         </div>
 
@@ -95,16 +95,16 @@ export default function Team() {
 
         <div className="bg-gradient-to-br from-blue-600 to-teal-500 rounded-2xl p-12 text-center">
           <h3 className="text-3xl font-bold text-white mb-4">
-            Join Our Growing Team
+            Ready to Get Started?
           </h3>
           <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-            We're always looking for talented individuals who are passionate about digital marketing and driving results.
+            Join my community and get access to all the resources, guides, and frameworks I've shared with thousands of successful entrepreneurs.
           </p>
           <a
             href="#contact"
             className="inline-flex items-center space-x-2 bg-white text-blue-600 px-8 py-4 rounded-full hover:shadow-2xl transition-all duration-200 transform hover:-translate-y-1 font-medium"
           >
-            <span>View Open Positions</span>
+            <span>Connect With Me</span>
           </a>
         </div>
       </div>

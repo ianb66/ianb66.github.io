@@ -3,45 +3,45 @@ import { Quote, Star } from 'lucide-react';
 export default function Testimonials() {
   const testimonials = [
     {
-      content: "Velocity Digital transformed our online presence completely. Within 6 months, we saw a 300% increase in qualified leads and our revenue doubled. Their strategic approach and attention to detail is unmatched.",
-      author: "Sarah Mitchell",
-      position: "CEO",
-      company: "TechFlow Solutions",
+      content: "Ian's affiliate mastery guide completely changed my perspective on online business. I went from struggling to make $500/month to consistently earning $15K+ every month. The frameworks are incredibly practical and actionable.",
+      author: "James Wilson",
+      position: "Affiliate Marketer",
+      company: "6-Figure Earner",
       rating: 5,
     },
     {
-      content: "The ROI we've achieved with Velocity Digital is exceptional. They don't just execute campaigns—they become true partners in your growth. Every recommendation is backed by data and delivers results.",
-      author: "Michael Chen",
-      position: "Marketing Director",
-      company: "Urban Boutique",
+      content: "What blew my mind about Ian's teaching is that it's not hype or fluff. He breaks down exactly what worked for him and makes it repeatable. My passive income streams are now generating $8K/month on autopilot.",
+      author: "Lisa Zhang",
+      position: "Course Creator",
+      company: "Digital Product Expert",
       rating: 5,
     },
     {
-      content: "Working with Velocity Digital has been a game-changer. Their expertise in both strategy and execution helped us dominate our market. The team is responsive, knowledgeable, and genuinely invested in our success.",
-      author: "Jennifer Rodriguez",
-      position: "VP of Marketing",
-      company: "Global Finance Group",
+      content: "Following Ian's community has been transformative. The accountability, resources, and genuine support from fellow entrepreneurs is invaluable. I've made meaningful connections and tripled my business revenue in just 8 months.",
+      author: "Robert Blake",
+      position: "Ecommerce Owner",
+      company: "Multi-Channel Seller",
       rating: 5,
     },
     {
-      content: "We tried several agencies before Velocity Digital, but none came close to their level of service and results. They increased our organic traffic by 400% and helped us scale profitably. Highly recommend!",
-      author: "David Thompson",
-      position: "Founder",
-      company: "Summit Ventures",
+      content: "I was skeptical at first, but Ian's systems actually work. I built my first $10K funnel in 3 weeks using his exact blueprint. The email marketing sequences alone have paid for itself 100x over. This is game-changing stuff.",
+      author: "Alexandra Foster",
+      position: "Funnel Builder",
+      company: "Digital Entrepreneur",
       rating: 5,
     },
     {
-      content: "The team at Velocity Digital is simply outstanding. They took time to understand our business, industry, and goals. The customized strategy they developed has delivered consistent growth quarter after quarter.",
-      author: "Emily Watson",
-      position: "CMO",
-      company: "Nexus Healthcare",
+      content: "Ian doesn't gatekeep his knowledge. He generously shares the exact strategies that made him millions. I went from working 60+ hours with no growth to building a business that runs itself. Grateful doesn't even cover it.",
+      author: "Marcus Thompson",
+      position: "Affiliate & Coach",
+      company: "7-Figure Entrepreneur",
       rating: 5,
     },
     {
-      content: "Professional, results-driven, and innovative. Velocity Digital brought fresh ideas that transformed our marketing approach. Our customer acquisition costs dropped by 45% while quality improved significantly.",
-      author: "Robert Kim",
-      position: "Growth Lead",
-      company: "Catalyst Software",
+      content: "The level of transparency and authenticity from Ian is rare in this space. He shows you the wins AND the failures. His traffic hacking strategies helped me grow from 2K to 50K followers in 6 months.",
+      author: "Emma Crawford",
+      position: "Content Creator",
+      company: "Viral Growth Expert",
       rating: 5,
     },
   ];
@@ -51,13 +51,13 @@ export default function Testimonials() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <div className="inline-flex items-center space-x-2 bg-blue-100 text-blue-700 px-4 py-2 rounded-full text-sm font-medium mb-4">
-            <span>Testimonials</span>
+            <span>What My Students Say</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Trusted by Industry Leaders
+            Trusted by 50K+ Entrepreneurs
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Don't just take our word for it. Here's what our clients have to say about working with us.
+            Don't just take my word for it. Here's what my students and community members have achieved using my resources and frameworks.
           </p>
         </div>
 

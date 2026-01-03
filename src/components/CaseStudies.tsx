@@ -3,38 +3,38 @@ import { ArrowUpRight, TrendingUp, Users, DollarSign } from 'lucide-react';
 export default function CaseStudies() {
   const caseStudies = [
     {
-      company: 'TechFlow Solutions',
-      industry: 'SaaS',
-      challenge: 'Low organic traffic and poor conversion rates',
-      solution: 'Comprehensive SEO strategy and conversion optimization',
+      company: 'Marcus Lee',
+      industry: 'Affiliate Marketing',
+      challenge: 'Started with zero audience and no product experience',
+      solution: 'Used my affiliate mastery framework and email automation system',
       results: [
-        { icon: TrendingUp, metric: '+385%', label: 'Organic Traffic' },
-        { icon: Users, metric: '+210%', label: 'Lead Generation' },
-        { icon: DollarSign, metric: '+$2.4M', label: 'Annual Revenue' },
+        { icon: TrendingUp, metric: '$45K', label: 'First Month Revenue' },
+        { icon: Users, metric: '12K+', label: 'Email Subscribers' },
+        { icon: DollarSign, metric: '$285K', label: 'Annual Revenue' },
       ],
       bgColor: 'from-blue-500 to-blue-600',
     },
     {
-      company: 'Urban Boutique',
-      industry: 'E-commerce',
-      challenge: 'High cart abandonment and low ROAS',
-      solution: 'Multi-channel PPC campaigns and email automation',
+      company: 'Sarah Johnson',
+      industry: 'Digital Products',
+      challenge: 'Stuck at $5K/month with limited time',
+      solution: 'Implemented my passive income systems and course launch blueprint',
       results: [
-        { icon: TrendingUp, metric: '+520%', label: 'ROAS' },
-        { icon: Users, metric: '-67%', label: 'Cart Abandonment' },
-        { icon: DollarSign, metric: '+$1.8M', label: 'Revenue Increase' },
+        { icon: TrendingUp, metric: '8x Growth', label: 'Revenue Increase' },
+        { icon: Users, metric: '25K+', label: 'Course Students' },
+        { icon: DollarSign, metric: '$420K/mo', label: 'Recurring Revenue' },
       ],
       bgColor: 'from-teal-500 to-teal-600',
     },
     {
-      company: 'Global Finance Group',
-      industry: 'Financial Services',
-      challenge: 'Low brand awareness and market penetration',
-      solution: 'Integrated content marketing and social media strategy',
+      company: 'David Chen',
+      industry: 'E-commerce & Affiliate',
+      challenge: 'Overwhelmed trying to juggle multiple revenue streams',
+      solution: 'Applied my business scaling blueprint and outsourcing system',
       results: [
-        { icon: TrendingUp, metric: '+290%', label: 'Brand Awareness' },
-        { icon: Users, metric: '150K+', label: 'New Followers' },
-        { icon: DollarSign, metric: '3,400+', label: 'Qualified Leads' },
+        { icon: TrendingUp, metric: '+350%', label: 'Growth Rate' },
+        { icon: Users, metric: '100K+', label: 'Community Size' },
+        { icon: DollarSign, metric: '$780K/mo', label: 'Total Revenue' },
       ],
       bgColor: 'from-blue-600 to-teal-500',
     },
@@ -48,10 +48,10 @@ export default function CaseStudies() {
             <span>Success Stories</span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Real Results for Real Businesses
+            Real People Achieving Real Results
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            See how we've helped businesses like yours achieve extraordinary growth through strategic digital marketing.
+            Meet some of my students who've used my frameworks and systems to build profitable businesses and achieve financial freedom.
           </p>
         </div>
 
@@ -74,7 +74,7 @@ export default function CaseStudies() {
 
                   <div>
                     <div className="text-sm font-semibold text-gray-700 mb-2">
-                      Challenge
+                      Starting Point
                     </div>
                     <p className="text-gray-600">
                       {study.challenge}
@@ -83,7 +83,7 @@ export default function CaseStudies() {
 
                   <div>
                     <div className="text-sm font-semibold text-gray-700 mb-2">
-                      Solution
+                      What They Used
                     </div>
                     <p className="text-gray-600">
                       {study.solution}

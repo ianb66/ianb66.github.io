@@ -5,10 +5,10 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const navigation = [
-    { name: 'Services', href: '#services' },
-    { name: 'Case Studies', href: '#case-studies' },
-    { name: 'About', href: '#team' },
-    { name: 'Contact', href: '#contact' },
+    { name: 'Resources', href: '#services' },
+    { name: 'Success Stories', href: '#case-studies' },
+    { name: 'About Ian', href: '#team' },
+    { name: 'Connect', href: '#contact' },
   ];
 
   return (
@@ -17,7 +17,7 @@ export default function Header() {
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center">
             <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-teal-500 bg-clip-text text-transparent">
-              Velocity Digital
+              Ian Barwell
             </span>
           </div>
 

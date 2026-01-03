@@ -4,27 +4,27 @@ export default function Stats() {
   const stats = [
     {
       icon: Users,
-      value: '500+',
-      label: 'Happy Clients',
-      description: 'Businesses trust us with their growth',
+      value: '50K+',
+      label: 'Students & Followers',
+      description: 'Building profitable businesses worldwide',
     },
     {
       icon: TrendingUp,
-      value: '$50M+',
-      label: 'Revenue Generated',
-      description: 'For our clients in the past year',
+      value: '$2.3M',
+      label: 'Annual Revenue',
+      description: 'Proof that the system actually works',
     },
     {
       icon: Award,
-      value: '127',
-      label: 'Awards Won',
-      description: 'Industry recognition for excellence',
+      value: '95%',
+      label: 'Student Success Rate',
+      description: 'Achieve their income milestones',
     },
     {
       icon: Clock,
       value: '12 Years',
-      label: 'Experience',
-      description: 'Delivering marketing excellence',
+      label: 'In Business',
+      description: 'Building digital empires since 2012',
     },
   ];
 
@@ -33,10 +33,10 @@ export default function Stats() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Results That Speak for Themselves
+            Proven Results That Inspire
           </h2>
           <p className="text-xl text-blue-100 max-w-2xl mx-auto">
-            We don't just promise results—we deliver them consistently for businesses of all sizes.
+            My success isn't just about my numbers—it's about the thousands of students and followers I've helped achieve their entrepreneurial dreams.
           </p>
         </div>
 
@@ -66,13 +66,13 @@ export default function Stats() {
 
         <div className="mt-16 text-center">
           <p className="text-blue-100 text-lg mb-6">
-            Join hundreds of businesses achieving remarkable growth
+            You could be next. Join thousands building their digital empire.
           </p>
           <a
             href="#contact"
             className="inline-flex items-center space-x-2 bg-white text-blue-600 px-8 py-4 rounded-full hover:shadow-2xl transition-all duration-200 transform hover:-translate-y-1 font-medium"
           >
-            <span>Start Your Success Story</span>
+            <span>Join My Community</span>
           </a>
         </div>
       </div>

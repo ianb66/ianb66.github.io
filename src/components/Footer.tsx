@@ -11,10 +11,10 @@ export default function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-12 mb-12">
           <div className="lg:col-span-2">
             <div className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-teal-400 bg-clip-text text-transparent mb-4">
-              Velocity Digital
+              Ian Barwell
             </div>
             <p className="text-gray-400 mb-6 leading-relaxed">
-              Transform your digital presence into measurable business results. We combine strategy, creativity, and technology to deliver campaigns that convert.
+              Building a community of successful entrepreneurs. I share the systems, resources, and frameworks I used to build a 7-figure business—all to help you achieve your goals.
             </p>
             <div className="flex space-x-4">
               {[
@@ -35,15 +35,15 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="font-semibold text-lg mb-4">Services</h3>
+            <h3 className="font-semibold text-lg mb-4">Resources</h3>
             <ul className="space-y-3">
               {[
-                'SEO Optimization',
-                'PPC Advertising',
-                'Social Media',
-                'Analytics',
-                'CRO',
-                'Email Marketing',
+                'Affiliate Marketing',
+                'Passive Income',
+                'Email Mastery',
+                'Traffic Growth',
+                'Community Building',
+                'Business Scaling',
               ].map((item, index) => (
                 <li key={index}>
                   <a
@@ -58,15 +58,15 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="font-semibold text-lg mb-4">Company</h3>
+            <h3 className="font-semibold text-lg mb-4">Connect</h3>
             <ul className="space-y-3">
               {[
-                { label: 'About Us', href: '#team' },
-                { label: 'Case Studies', href: '#case-studies' },
-                { label: 'Careers', href: '#team' },
-                { label: 'Blog', href: '#' },
-                { label: 'Resources', href: '#' },
-                { label: 'Contact', href: '#contact' },
+                { label: 'About Ian', href: '#team' },
+                { label: 'Success Stories', href: '#case-studies' },
+                { label: 'My Community', href: '#' },
+                { label: 'Podcast', href: '#' },
+                { label: 'Free Training', href: '#' },
+                { label: 'Get Started', href: '#contact' },
               ].map((item, index) => (
                 <li key={index}>
                   <a
@@ -105,7 +105,7 @@ export default function Footer() {
         <div className="border-t border-gray-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-gray-400 text-sm">
-              © 2024 Velocity Digital. All rights reserved.
+              © 2024 Ian Barwell. All rights reserved. Built with passion for entrepreneurs.
             </div>
             <button
               onClick={scrollToTop}
