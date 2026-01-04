@@ -16,8 +16,8 @@ export default function Header() {
       <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-20 items-center justify-between">
           <div className="flex items-center">
-            <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-teal-500 bg-clip-text text-transparent">
-              Ian Barwell
+            <span className="text-xl font-bold font-serif border border-gray-300 px-4 py-2 rounded-md transition-colors duration-300 hover:border-blue-500 cursor-pointer text-white" style={{ backgroundColor: '#199eb9' }}>
+              IJB | Affiliate Marketer
             </span>
           </div>
 
