@@ -1,11 +1,10 @@
 import Header from './components/Header';
 import Hero from './components/Hero';
-import Services from './components/Services';
-import Stats from './components/Stats';
-import CaseStudies from './components/CaseStudies';
-import Testimonials from './components/Testimonials';
-import Team from './components/Team';
-import Contact from './components/Contact';
+import About from './components/About';
+import Products from './components/Products';
+import Working from './components/Working';
+import WhyBuild from './components/WhyBuild';
+import Resources from './components/Resources';
 import Footer from './components/Footer';
 
 function App() {
@@ -13,12 +12,11 @@ function App() {
     <div className="min-h-screen bg-white">
       <Header />
       <Hero />
-      <Services />
-      <Stats />
-      <CaseStudies />
-      <Testimonials />
-      <Team />
-      <Contact />
+      <About />
+      <Products />
+      <Working />
+      <WhyBuild />
+      <Resources />
       <Footer />
     </div>
   );

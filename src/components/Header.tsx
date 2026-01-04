@@ -5,10 +5,9 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const navigation = [
-    { name: 'Resources', href: '#services' },
-    { name: 'Success Stories', href: '#case-studies' },
-    { name: 'About Ian', href: '#team' },
-    { name: 'Connect', href: '#contact' },
+    { name: 'About', href: '#about' },
+    { name: 'Products', href: '#products' },
+    { name: 'Resources', href: '#resources' },
   ];
 
   return (
@@ -16,8 +15,8 @@ export default function Header() {
       <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center">
-            <span className="text-xl font-bold font-serif border border-gray-300 px-4 py-2 rounded-md transition-colors duration-300 hover:border-blue-500 cursor-pointer text-white" style={{ backgroundColor: '#199eb9' }}>
-              IJB | Affiliate Marketer
+            <span className="text-xl font-bold bg-gradient-to-r from-blue-600 to-teal-500 bg-clip-text text-transparent">
+              Ian Barwell
             </span>
           </div>
 
@@ -32,12 +31,6 @@ export default function Header() {
                   {item.name}
                 </a>
               ))}
-              <a
-                href="#contact"
-                className="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition-all duration-200 hover:shadow-lg transform hover:-translate-y-0.5"
-              >
-                Get Started
-              </a>
             </div>
           </div>
 
@@ -65,13 +58,6 @@ export default function Header() {
                 {item.name}
               </a>
             ))}
-            <a
-              href="#contact"
-              className="block px-3 py-2 text-center bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors"
-              onClick={() => setMobileMenuOpen(false)}
-            >
-              Get Started
-            </a>
           </div>
         </div>
       )}
