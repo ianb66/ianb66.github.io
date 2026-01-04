@@ -130,7 +130,7 @@ export default function Products() {
                     $17 One-Time
                   </span>
                   <a
-                    href="https://propagereview.com/order"
+                    href="https://propagereview.com"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block px-8 py-3 bg-gradient-to-r from-blue-700 to-teal-500 text-white font-semibold rounded-lg hover:shadow-lg transition-all duration-300"
