@@ -1,56 +1,12 @@
-import { Facebook, Twitter, Linkedin, Instagram, ArrowUp, Mail } from 'lucide-react';
-import { useState } from 'react';
+import { Facebook, Twitter, Linkedin, Instagram, ArrowUp } from 'lucide-react';
 
 export default function Footer() {
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-  const [email, setEmail] = useState('');
-  const [subscribed, setSubscribed] = useState(false);
-
-  const handleEmailSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    setSubscribed(true);
-    setEmail('');
-    setTimeout(() => setSubscribed(false), 3000);
-  };
-
   return (
     <footer className="bg-gray-900 text-white">
-      <div className="bg-gradient-to-r from-blue-600 to-teal-500 py-16">
-        <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
-          <div className="text-center space-y-6">
-            <h3 className="text-3xl font-bold">Stay Updated</h3>
-            <p className="text-lg text-blue-100">Get exclusive tips, new product launches, and strategies delivered to your inbox.</p>
-
-            {subscribed ? (
-              <div className="inline-flex items-center space-x-2 bg-white/20 px-6 py-3 rounded-lg">
-                <Mail className="text-white" size={20} />
-                <span className="text-white font-medium">Thanks for subscribing!</span>
-              </div>
-            ) : (
-              <form onSubmit={handleEmailSubmit} className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
-                <input
-                  type="email"
-                  placeholder="Enter your email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  required
-                  className="flex-1 px-4 py-3 rounded-lg text-gray-900 focus:outline-none"
-                />
-                <button
-                  type="submit"
-                  className="px-6 py-3 bg-white text-blue-600 font-semibold rounded-lg hover:bg-gray-100 transition-colors"
-                >
-                  Subscribe
-                </button>
-              </form>
-            )}
-          </div>
-        </div>
-      </div>
-
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-12 mb-12">
           <div className="lg:col-span-2">
