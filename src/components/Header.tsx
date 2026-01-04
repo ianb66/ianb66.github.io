@@ -5,10 +5,9 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const navigation = [
-    { name: 'Resources', href: '#services' },
-    { name: 'Success Stories', href: '#case-studies' },
-    { name: 'About Ian', href: '#team' },
-    { name: 'Connect', href: '#contact' },
+    { name: 'About', href: '#about' },
+    { name: 'Products', href: '#products' },
+    { name: 'Resources', href: '#resources' },
   ];
 
   return (
