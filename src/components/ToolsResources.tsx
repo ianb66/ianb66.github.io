@@ -27,14 +27,6 @@ const ToolsResources: React.FC = () => {
       buttonText: 'Try Aweber'
     },
     {
-      name: 'GetResponse',
-      icon: '📧',
-      description: 'All-in-one marketing platform with email automation, landing pages, webinars, and conversion funnels',
-      usage: 'I use GetResponse for advanced automation workflows and webinar hosting to engage my audience at scale',
-      link: 'https://www.getresponse.com?a=ijb58&c=ianbarwell',
-      buttonText: 'Try GetResponse'
-    },
-    {
       name: 'ClickMagick',
       icon: '📊',
       description: 'Advanced ad tracking and attribution platform that monitors clicks, conversions, and ROI across all marketing channels',
@@ -65,10 +57,53 @@ const ToolsResources: React.FC = () => {
       usage: 'I use Hostinger to host my websites and domains with reliable performance at an unbeatable price',
       link: 'https://hostinger.co.uk?REFERRALCODE=189IANBARP4L',
       buttonText: 'Try Hostinger'
+    },
+    {
+      name: 'Canva',
+      icon: '🎨',
+      description: 'Professional graphic design platform with drag-and-drop interface, templates, and AI-powered design tools',
+      usage: 'I use Canva Pro to create stunning social media graphics, presentations, and marketing materials in minutes',
+      link: 'https://www.canva.com/',
+      buttonText: 'Try Canva'
     }
   ];
 
-  const resources = [
+  const trafficLeadSources = [
+    {
+      name: 'Trafficzest',
+      icon: '🚦',
+      description: 'Fast, scalable traffic generation platform delivering instant laser-targeted visitors to your offers with a unique bidding system',
+      usage: 'Trafficzest helps me get immediate, converting traffic to my offers without waiting for SEO or organic growth',
+      link: 'https://bit.ly/tzest',
+      buttonText: 'Get Traffic'
+    },
+    {
+      name: 'My Lead Gen Secret',
+      icon: '🔑',
+      description: 'Daily lead generation service delivering 100 fresh, permission-based email leads every day for just $1/day after first month',
+      usage: 'My Lead Gen Secret gives me a constant stream of fresh leads to market to, eliminating my biggest bottleneck',
+      link: 'https://www.myleadgensecret.com/?rid=23754',
+      buttonText: 'Get Leads'
+    },
+    {
+      name: 'Traffic For Me',
+      icon: '🎯',
+      description: 'Done-for-you traffic generation service delivering targeted visitors to your offers with hands-free automation',
+      usage: 'Traffic For Me provides consistent, high-quality traffic without me having to manage campaigns or ad platforms',
+      link: 'https://www.trafficforme.net/IB21',
+      buttonText: 'Get Traffic'
+    },
+    {
+      name: 'Udimi',
+      icon: '📧',
+      description: 'Premium solo ads marketplace connecting you with verified email list owners who deliver real, targeted clicks',
+      usage: 'I use Udimi to buy high-quality solo ads from trusted sellers, ensuring I get real clicks from engaged subscribers',
+      link: 'https://udimi.com/p/ss52u/recommends',
+      buttonText: 'Try Udimi'
+    }
+  ];
+
+  const trainingPrograms = [
     {
       name: 'Master Affiliate Profits',
       icon: '🎓',
@@ -86,12 +121,12 @@ const ToolsResources: React.FC = () => {
       buttonText: 'Join Now'
     },
     {
-      name: 'Trafficzest',
-      icon: '🚦',
-      description: 'Fast, scalable traffic generation platform delivering instant laser-targeted visitors to your offers with a unique bidding system',
-      usage: 'Trafficzest helps me get immediate, converting traffic to my offers without waiting for SEO or organic growth',
-      link: 'https://bit.ly/tzest',
-      buttonText: 'Get Traffic'
+      name: 'Partner & Profit',
+      icon: '🤝',
+      description: 'Advanced partnership and profit-sharing training program for building scalable online businesses with strategic collaborations',
+      usage: 'Partner & Profit showed me how to leverage partnerships and joint ventures to multiply my income streams',
+      link: 'https://warriorplus.com/o2/a/rm2b0sv/0',
+      buttonText: 'Learn More'
     },
     {
       name: 'OLSP System',
@@ -100,14 +135,6 @@ const ToolsResources: React.FC = () => {
       usage: 'OLSP System provides done-for-you funnels and ongoing training that helped me generate consistent affiliate commissions',
       link: 'https://olspsystem.com/join/702982/a1',
       buttonText: 'Join OLSP'
-    },
-    {
-      name: 'My Lead Gen Secret',
-      icon: '🔑',
-      description: 'Daily lead generation service delivering 100 fresh, permission-based email leads every day for just $1/day after first month',
-      usage: 'My Lead Gen Secret gives me a constant stream of fresh leads to market to, eliminating my biggest bottleneck',
-      link: 'https://www.myleadgensecret.com/?rid=23754',
-      buttonText: 'Get Leads'
     }
   ];
 
@@ -153,7 +180,7 @@ const ToolsResources: React.FC = () => {
                   href={tool.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="block w-full text-center bg-gradient-to-r from-blue-600 to-teal-500 text-white font-semibold py-3 px-4 rounded-lg hover:from-blue-700 hover:to-teal-600 transition-all duration-300"
+                  className="inline-block w-full text-center bg-gradient-to-r from-blue-600 to-teal-500 text-white font-semibold py-3 px-6 rounded-lg hover:from-blue-700 hover:to-teal-600 transition-all duration-300"
                 >
                   {tool.buttonText}
                 </a>
@@ -162,41 +189,79 @@ const ToolsResources: React.FC = () => {
           </div>
         </div>
 
-        {/* Recommended Resources Section */}
+        {/* Resources Section */}
         <div>
           <div className="mb-12">
             <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3">
               Recommended Resources
             </h3>
             <p className="text-base sm:text-lg text-gray-600">
-              Training programs and systems that accelerated my affiliate marketing success
+              Traffic sources and training programs that accelerated my success
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {resources.map((resource, index) => (
-              <div
-                key={index}
-                className="bg-white rounded-lg border-2 border-gray-300 p-6 transition-all duration-300 hover:border-blue-500 hover:scale-105 hover:shadow-xl flex flex-col"
-              >
-                <div className="text-5xl mb-4">{resource.icon}</div>
-                <h4 className="text-xl font-bold text-gray-900 mb-3">{resource.name}</h4>
-                <p className="text-sm text-gray-600 mb-3 leading-relaxed">
-                  {resource.description}
-                </p>
-                <p className="text-sm italic text-teal-600 mb-4 flex-grow">
-                  "{resource.usage}"
-                </p>
-                <a
-                  href={resource.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="block w-full text-center bg-gradient-to-r from-blue-600 to-teal-500 text-white font-semibold py-3 px-4 rounded-lg hover:from-blue-700 hover:to-teal-600 transition-all duration-300"
+          {/* Traffic & Lead Sources */}
+          <div className="mb-16">
+            <h4 className="text-xl sm:text-2xl font-semibold text-gray-800 mb-6">
+              Traffic & Lead Sources
+            </h4>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+              {trafficLeadSources.map((resource, index) => (
+                <div
+                  key={index}
+                  className="bg-white rounded-lg border-2 border-gray-300 p-6 transition-all duration-300 hover:border-blue-500 hover:scale-105 hover:shadow-xl flex flex-col"
                 >
-                  {resource.buttonText}
-                </a>
-              </div>
-            ))}
+                  <div className="text-5xl mb-4">{resource.icon}</div>
+                  <h5 className="text-xl font-bold text-gray-900 mb-3">{resource.name}</h5>
+                  <p className="text-sm text-gray-600 mb-3 leading-relaxed">
+                    {resource.description}
+                  </p>
+                  <p className="text-sm italic text-teal-600 mb-4 flex-grow">
+                    "{resource.usage}"
+                  </p>
+                  <a
+                    href={resource.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block w-full text-center bg-gradient-to-r from-blue-600 to-teal-500 text-white font-semibold py-3 px-6 rounded-lg hover:from-blue-700 hover:to-teal-600 transition-all duration-300"
+                  >
+                    {resource.buttonText}
+                  </a>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Training Programs */}
+          <div>
+            <h4 className="text-xl sm:text-2xl font-semibold text-gray-800 mb-6">
+              Training Programs
+            </h4>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+              {trainingPrograms.map((resource, index) => (
+                <div
+                  key={index}
+                  className="bg-white rounded-lg border-2 border-gray-300 p-6 transition-all duration-300 hover:border-blue-500 hover:scale-105 hover:shadow-xl flex flex-col"
+                >
+                  <div className="text-5xl mb-4">{resource.icon}</div>
+                  <h5 className="text-xl font-bold text-gray-900 mb-3">{resource.name}</h5>
+                  <p className="text-sm text-gray-600 mb-3 leading-relaxed">
+                    {resource.description}
+                  </p>
+                  <p className="text-sm italic text-teal-600 mb-4 flex-grow">
+                    "{resource.usage}"
+                  </p>
+                  <a
+                    href={resource.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block w-full text-center bg-gradient-to-r from-blue-600 to-teal-500 text-white font-semibold py-3 px-6 rounded-lg hover:from-blue-700 hover:to-teal-600 transition-all duration-300"
+                  >
+                    {resource.buttonText}
+                  </a>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>
