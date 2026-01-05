@@ -11,8 +11,8 @@ export default function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* Brand Section */}
           <div className="lg:col-span-1">
-            <div className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-teal-400 bg-clip-text text-transparent mb-4">
-              Ian Barwell
+            <div className="text-xl font-bold font-serif border border-gray-600 px-4 py-2 rounded-md mb-4 inline-block" style={{ backgroundColor: '#199eb9' }}>
+              IJB | Affiliate Marketer
             </div>
             <p className="text-gray-400 mb-6 leading-relaxed">
               From beat cop to AI entrepreneur. Building AI-powered SaaS businesses and sharing the journey.

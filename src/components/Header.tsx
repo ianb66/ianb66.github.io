@@ -31,12 +31,6 @@ export default function Header() {
                   {item.name}
                 </a>
               ))}
-              <a
-                href="#contact"
-                className="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition-all duration-200 hover:shadow-lg transform hover:-translate-y-0.5"
-              >
-                Get Started
-              </a>
             </div>
           </div>
 
@@ -64,13 +58,6 @@ export default function Header() {
                 {item.name}
               </a>
             ))}
-            <a
-              href="#contact"
-              className="block px-3 py-2 text-center bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors"
-              onClick={() => setMobileMenuOpen(false)}
-            >
-              Get Started
-            </a>
           </div>
         </div>
       )}
