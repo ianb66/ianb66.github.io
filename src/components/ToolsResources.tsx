@@ -139,14 +139,14 @@ const ToolsResources: React.FC = () => {
             {tools.map((tool, index) => (
               <div
                 key={index}
-                className="bg-white rounded-lg border-2 border-gray-300 p-6 transition-all duration-300 hover:border-blue-500 hover:scale-105 hover:shadow-xl"
+                className="bg-white rounded-lg border-2 border-gray-300 p-6 transition-all duration-300 hover:border-blue-500 hover:scale-105 hover:shadow-xl flex flex-col"
               >
                 <div className="text-5xl mb-4">{tool.icon}</div>
                 <h4 className="text-xl font-bold text-gray-900 mb-3">{tool.name}</h4>
                 <p className="text-sm text-gray-600 mb-3 leading-relaxed">
                   {tool.description}
                 </p>
-                <p className="text-sm italic text-teal-600 mb-4">
+                <p className="text-sm italic text-teal-600 mb-4 flex-grow">
                   "{tool.usage}"
                 </p>
                 <a
@@ -177,14 +177,14 @@ const ToolsResources: React.FC = () => {
             {resources.map((resource, index) => (
               <div
                 key={index}
-                className="bg-white rounded-lg border-2 border-gray-300 p-6 transition-all duration-300 hover:border-blue-500 hover:scale-105 hover:shadow-xl"
+                className="bg-white rounded-lg border-2 border-gray-300 p-6 transition-all duration-300 hover:border-blue-500 hover:scale-105 hover:shadow-xl flex flex-col"
               >
                 <div className="text-5xl mb-4">{resource.icon}</div>
                 <h4 className="text-xl font-bold text-gray-900 mb-3">{resource.name}</h4>
                 <p className="text-sm text-gray-600 mb-3 leading-relaxed">
                   {resource.description}
                 </p>
-                <p className="text-sm italic text-teal-600 mb-4">
+                <p className="text-sm italic text-teal-600 mb-4 flex-grow">
                   "{resource.usage}"
                 </p>
                 <a
