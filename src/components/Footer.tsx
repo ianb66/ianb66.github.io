@@ -1,4 +1,4 @@
-import { Facebook, Twitter, Linkedin, Instagram, ArrowUp } from 'lucide-react';
+import { ArrowUp } from 'lucide-react';
 
 export default function Footer() {
   const scrollToTop = () => {
@@ -6,106 +6,111 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-gray-900 text-white">
+    <footer id="contact" className="bg-gray-900 text-white">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
-        <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-12 mb-12">
-          <div className="lg:col-span-2">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+          {/* Brand Section */}
+          <div className="lg:col-span-1">
             <div className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-teal-400 bg-clip-text text-transparent mb-4">
               Ian Barwell
             </div>
             <p className="text-gray-400 mb-6 leading-relaxed">
-              Building a community of successful entrepreneurs. I share the systems, resources, and frameworks I used to build a 7-figure business—all to help you achieve your goals.
+              From beat cop to AI entrepreneur. Building AI-powered SaaS businesses and sharing the journey.
             </p>
-            <div className="flex space-x-4">
-              {[
-                { icon: Facebook, href: '#' },
-                { icon: Twitter, href: '#' },
-                { icon: Linkedin, href: '#' },
-                { icon: Instagram, href: '#' },
-              ].map((social, index) => (
-                <a
-                  key={index}
-                  href={social.href}
-                  className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-gradient-to-br hover:from-blue-600 hover:to-teal-500 transition-all duration-200 transform hover:-translate-y-1"
-                >
-                  <social.icon size={18} />
+          </div>
+
+          {/* Quick Links */}
+          <div>
+            <h3 className="font-semibold text-lg mb-4">Quick Links</h3>
+            <ul className="space-y-3">
+              <li>
+                <a href="#about" className="text-gray-400 hover:text-white transition-colors">
+                  About Ian
                 </a>
-              ))}
-            </div>
-          </div>
-
-          <div>
-            <h3 className="font-semibold text-lg mb-4">Resources</h3>
-            <ul className="space-y-3">
-              {[
-                'Affiliate Marketing',
-                'Passive Income',
-                'Email Mastery',
-                'Traffic Growth',
-                'Community Building',
-                'Business Scaling',
-              ].map((item, index) => (
-                <li key={index}>
-                  <a
-                    href="#services"
-                    className="text-gray-400 hover:text-white transition-colors"
-                  >
-                    {item}
-                  </a>
-                </li>
-              ))}
+              </li>
+              <li>
+                <a href="#products" className="text-gray-400 hover:text-white transition-colors">
+                  My Products
+                </a>
+              </li>
+              <li>
+                <a href="#resources" className="text-gray-400 hover:text-white transition-colors">
+                  Tools & Resources
+                </a>
+              </li>
             </ul>
           </div>
 
+          {/* Products */}
           <div>
-            <h3 className="font-semibold text-lg mb-4">Connect</h3>
+            <h3 className="font-semibold text-lg mb-4">My Products</h3>
             <ul className="space-y-3">
-              {[
-                { label: 'About Ian', href: '#team' },
-                { label: 'Success Stories', href: '#case-studies' },
-                { label: 'My Community', href: '#' },
-                { label: 'Podcast', href: '#' },
-                { label: 'Free Training', href: '#' },
-                { label: 'Get Started', href: '#contact' },
-              ].map((item, index) => (
-                <li key={index}>
-                  <a
-                    href={item.href}
-                    className="text-gray-400 hover:text-white transition-colors"
-                  >
-                    {item.label}
-                  </a>
-                </li>
-              ))}
+              <li>
+                <a 
+                  href="https://competewithclaude.com" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  CompeteWithClaude
+                </a>
+              </li>
+              <li>
+                <a 
+                  href="https://propagereview.com" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  ProPageReview
+                </a>
+              </li>
+              <li>
+                <a 
+                  href="https://thinklearn.app" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  ThinkLearn
+                </a>
+              </li>
             </ul>
           </div>
 
+          {/* Legal */}
           <div>
             <h3 className="font-semibold text-lg mb-4">Legal</h3>
             <ul className="space-y-3">
-              {[
-                'Privacy Policy',
-                'Terms of Service',
-                'Cookie Policy',
-                'GDPR',
-              ].map((item, index) => (
-                <li key={index}>
-                  <a
-                    href="#"
-                    className="text-gray-400 hover:text-white transition-colors"
-                  >
-                    {item}
-                  </a>
-                </li>
-              ))}
+              <li>
+                <a href="#" className="text-gray-400 hover:text-white transition-colors">
+                  Privacy Policy
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-gray-400 hover:text-white transition-colors">
+                  Terms of Service
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-gray-400 hover:text-white transition-colors">
+                  Cookie Policy
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-gray-400 hover:text-white transition-colors">
+                  GDPR
+                </a>
+              </li>
             </ul>
           </div>
         </div>
 
+        {/* Bottom Bar */}
         <div className="border-t border-gray-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-gray-400 text-sm">
-              © 2024 Ian Barwell. All rights reserved. Built with passion for entrepreneurs.
+              © 2026 Ian Barwell. All rights reserved. Built with AI and determination.
             </div>
             <button
               onClick={scrollToTop}
