@@ -95,7 +95,7 @@ const ToolsResources: React.FC = () => {
     },
     {
       name: 'Udimi',
-      icon: '📧',
+      icon: '👑',
       description: 'Premium solo ads marketplace connecting you with verified email list owners who deliver real, targeted clicks',
       usage: 'I use Udimi to buy high-quality solo ads from trusted sellers, ensuring I get real clicks from engaged subscribers',
       link: 'https://udimi.com/p/ss52u/recommends',
@@ -130,7 +130,7 @@ const ToolsResources: React.FC = () => {
     },
     {
       name: 'OLSP System',
-      icon: '🎯',
+      icon: '💎',
       description: 'Dynamic online platform offering marketing tools, training, and resources with automated lead capture and email follow-up',
       usage: 'OLSP System provides done-for-you funnels and ongoing training that helped me generate consistent affiliate commissions',
       link: 'https://olspsystem.com/join/702982/a1',
