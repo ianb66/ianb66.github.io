@@ -1,6 +1,7 @@
 import Header from './components/Header';
 import HeroNew from './components/HeroNew';
 import Products from './components/Products';
+import About from './components/About';
 import Footer from './components/Footer';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <HeroNew />
       <Products />
+      <About />
       <Footer />
     </div>
   );

@@ -11,35 +11,17 @@ const HeroNew = () => {
       </div>
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-28">
-        {/* Hero Top Section - Photo + Headline */}
-        <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
-          {/* Left: Photo */}
-          <div className="flex justify-center lg:justify-end">
-            <div className="relative">
-              <div className="w-64 h-64 lg:w-80 lg:h-80 rounded-2xl overflow-hidden shadow-2xl border-4 border-white/20">
-                <img 
-                  src="/IanJB.png" 
-                  alt="Ian Barwell" 
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              {/* Decorative element */}
-              <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-white/10 rounded-2xl -z-10"></div>
-            </div>
-          </div>
-
-          {/* Right: Headline + Subheadline */}
-          <div className="text-center lg:text-left">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              AI Has Changed Everything!
-            </h1>
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 leading-tight">
-              Here's How I'm Using It To Build SaaS Businesses Faster Than Ever
-            </h2>
-            <p className="text-xl sm:text-2xl text-white/90">
-              Learn the exact AI strategies I use to build, launch, and scale SaaS products
-            </p>
-          </div>
+        {/* Hero Top Section - Headline */}
+        <div className="text-center mb-16 max-w-5xl mx-auto">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+            AI Has Changed Everything!
+          </h1>
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 leading-tight">
+            Here's How I'm Using It To Build SaaS Businesses Faster Than Ever
+          </h2>
+          <p className="text-xl sm:text-2xl text-white/90">
+            Learn the exact AI strategies I use to build, launch, and scale SaaS products
+          </p>
         </div>
 
         {/* The AI Opportunity */}
