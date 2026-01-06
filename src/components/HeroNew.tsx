@@ -1,7 +1,11 @@
 import React from 'react';
 import { ArrowRight, Zap, TrendingUp, Cpu } from 'lucide-react';
 
-const HeroNew = () => {
+interface HeroNewProps {
+  onOpenModal: () => void;
+}
+
+const HeroNew = ({ onOpenModal }: HeroNewProps) => {
   return (
     <div className="relative bg-gradient-to-br from-[#1E40AF] to-[#0891B2] text-white overflow-hidden">
       {/* Background decoration */}
@@ -135,13 +139,13 @@ const HeroNew = () => {
 
         {/* Dual CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-          <a
-            href="#join"
+          <button
+            onClick={onOpenModal}
             className="inline-flex items-center gap-2 bg-white text-[#1E40AF] px-8 py-4 rounded-full text-lg font-bold hover:bg-gray-100 transition-colors shadow-xl"
           >
             Join the AI Revolution
             <ArrowRight className="w-5 h-5" />
-          </a>
+          </button>
           <a
             href="#products"
             className="inline-flex items-center gap-2 bg-transparent border-2 border-white text-white px-8 py-4 rounded-full text-lg font-bold hover:bg-white/10 transition-colors"
