@@ -123,7 +123,7 @@ const ToolsResources: React.FC = () => {
     {
       name: 'Partner & Profit',
       icon: '🤝',
-      description: 'Advanced partnership and profit-sharing training program for building scalable online businesses with strategic collaborations',
+      description: 'Advanced partnership and profit-sharing training program for building scalable online softwares with strategic collaborations',
       usage: 'Partner & Profit showed me how to leverage partnerships and joint ventures to multiply my income streams',
       link: 'https://warriorplus.com/o2/a/rm2b0sv/0',
       buttonText: 'Learn More'
@@ -147,7 +147,7 @@ const ToolsResources: React.FC = () => {
             Tools & Resources
           </h2>
           <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">
-            The exact tools and training programs I use to build AI-powered businesses
+            The exact tools and training programs I use to build AI-powered softwares
           </p>
         </div>
 
