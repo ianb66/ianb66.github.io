@@ -102,54 +102,6 @@ const HeroNew = () => {
           </div>
         </div>
 
-        {/* Three Product Cards */}
-        <div className="grid md:grid-cols-3 gap-6 mb-16">
-          {/* CompeteWithClaude */}
-          <div className="bg-white text-gray-900 rounded-xl p-8 shadow-xl hover:shadow-2xl transition-shadow">
-            <div className="flex justify-center mb-6">
-              <div className="w-20 h-20 bg-gradient-to-br from-[#1E40AF] to-[#0891B2] rounded-lg flex items-center justify-center">
-                <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-                </svg>
-              </div>
-            </div>
-            <h3 className="text-2xl font-bold mb-4 text-center">CompeteWithClaude</h3>
-            <p className="text-gray-700 text-center leading-relaxed">
-              An AI-powered competitive intelligence tool. Analyze market rivals and their strategies instantly using Claude's advanced capabilities.
-            </p>
-          </div>
-
-          {/* Pro Page Review */}
-          <div className="bg-white text-gray-900 rounded-xl p-8 shadow-xl hover:shadow-2xl transition-shadow">
-            <div className="flex justify-center mb-6">
-              <div className="w-20 h-20 bg-gradient-to-br from-[#1E40AF] to-[#0891B2] rounded-lg flex items-center justify-center">
-                <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                </svg>
-              </div>
-            </div>
-            <h3 className="text-2xl font-bold mb-4 text-center">Pro Page Review</h3>
-            <p className="text-gray-700 text-center leading-relaxed">
-              Automated landing page optimization. Get AI-driven actionable insights to improve conversion rates and user experience.
-            </p>
-          </div>
-
-          {/* ThinkLearn */}
-          <div className="bg-white text-gray-900 rounded-xl p-8 shadow-xl hover:shadow-2xl transition-shadow">
-            <div className="flex justify-center mb-6">
-              <div className="w-20 h-20 bg-gradient-to-br from-[#1E40AF] to-[#0891B2] rounded-lg flex items-center justify-center">
-                <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-                </svg>
-              </div>
-            </div>
-            <h3 className="text-2xl font-bold mb-4 text-center">ThinkLearn</h3>
-            <p className="text-gray-700 text-center leading-relaxed">
-              A personalized AI learning assistant for SaaS concepts. Accelerate your knowledge acquisition and application in record time.
-            </p>
-          </div>
-        </div>
-
         {/* Results Section */}
         <div className="mb-16">
           <h2 className="text-3xl font-bold text-center mb-8 uppercase tracking-wide">Results</h2>
