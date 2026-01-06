@@ -94,7 +94,7 @@ export default function EmailSignupModal({ isOpen, onClose }: EmailSignupModalPr
             type="submit"
             className="w-full bg-gradient-to-r from-blue-800 to-cyan-600 text-white font-bold py-3 px-6 rounded-lg hover:from-blue-700 hover:to-cyan-500 transition-all duration-300 transform hover:scale-105 shadow-lg"
           >
-            Join The AI Revolution
+            Join Now
           </button>
 
           {/* Privacy policy */}
