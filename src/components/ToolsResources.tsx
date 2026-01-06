@@ -133,7 +133,7 @@ const ToolsResources: React.FC = () => {
       icon: '💎',
       description: 'Dynamic online platform offering marketing tools, training, and resources with automated lead capture and email follow-up',
       usage: 'OLSP System provides done-for-you funnels and ongoing training that helped me generate consistent affiliate commissions',
-      link: 'https://olspsystem.com/join/702982/a1',
+      link: 'https://olspsystem.com/offer/1388/702982/u1',
       buttonText: 'Join OLSP'
     }
   ];
