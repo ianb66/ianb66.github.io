@@ -15,7 +15,7 @@ function App() {
       <Header />
       <HeroNew onOpenModal={() => setIsModalOpen(true)} />
       <Products />
-      <About />
+      <About onOpenModal={() => setIsModalOpen(true)} />
       <ToolsResources />
       <Footer />
       <EmailSignupModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />

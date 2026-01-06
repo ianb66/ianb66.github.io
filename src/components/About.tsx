@@ -1,7 +1,11 @@
 import React from 'react';
 import { CheckCircle, Rocket, Youtube, Mail, MessageCircle } from 'lucide-react';
 
-const About = () => {
+interface AboutProps {
+  onOpenModal: () => void;
+}
+
+const About = ({ onOpenModal }: AboutProps) => {
   return (
     <div className="bg-white py-20" id="about">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -230,13 +234,13 @@ const About = () => {
           <div className="grid md:grid-cols-3 gap-6 mb-8">
             <div className="bg-white/10 rounded-xl p-6 backdrop-blur-sm">
               <div className="text-4xl font-bold mb-2">1</div>
-              <h4 className="font-bold mb-2">Explore my AI tools</h4>
+              <h4 className="font-bold mb-2">Test my AI Software</h4>
               <p className="text-sm">CompeteWithClaude, ProPageReview, and ThinkLearn are live and ready to use</p>
             </div>
             <div className="bg-white/10 rounded-xl p-6 backdrop-blur-sm">
               <div className="text-4xl font-bold mb-2">2</div>
-              <h4 className="font-bold mb-2">Subscribe to my YouTube</h4>
-              <p className="text-sm">"Claude for Affiliates" launching soon with practical tutorials</p>
+              <h4 className="font-bold mb-2">Explore my AI Tools & Resources</h4>
+              <p className="text-sm">Discover the exact tools and training I use to build AI-powered businesses</p>
             </div>
             <div className="bg-white/10 rounded-xl p-6 backdrop-blur-sm">
               <div className="text-4xl font-bold mb-2">3</div>
@@ -251,12 +255,12 @@ const About = () => {
             >
               Explore My Products
             </a>
-            <a
-              href="#contact"
+            <button
+              onClick={onOpenModal}
               className="inline-block px-8 py-4 bg-transparent border-2 border-white text-white font-semibold rounded-lg hover:bg-white/10 transition-colors"
             >
               Get In Touch
-            </a>
+            </button>
           </div>
         </div>
       </div>
