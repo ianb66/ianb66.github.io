@@ -20,7 +20,7 @@ export default function Products() {
               {/* Content */}
               <div>
                 <p className="text-sm uppercase text-gray-500 mb-2">PRODUCT 1 - CompeteWithClaude</p>
-                <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">
+                <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 mb-3 break-words">
                   CompeteWithClaude
                 </h3>
                 <p className="text-xl text-teal-600 mb-6">
