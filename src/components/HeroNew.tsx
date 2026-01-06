@@ -143,7 +143,7 @@ const HeroNew = ({ onOpenModal }: HeroNewProps) => {
             onClick={onOpenModal}
             className="inline-flex items-center gap-2 bg-white text-[#1E40AF] px-8 py-4 rounded-full text-lg font-bold hover:bg-gray-100 transition-colors shadow-xl"
           >
-            Join the AI Revolution
+            Join Now
             <ArrowRight className="w-5 h-5" />
           </button>
           <a
