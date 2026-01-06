@@ -24,16 +24,82 @@ const HeroNew = () => {
           </p>
         </div>
 
-        {/* The AI Opportunity */}
-        <div className="text-center mb-16 max-w-4xl mx-auto">
-          <div className="inline-flex items-center gap-2 mb-4">
-            <Cpu className="w-6 h-6" />
-            <h2 className="text-2xl font-bold uppercase tracking-wide">The AI Opportunity</h2>
+        {/* Old Way vs New Way Comparison */}
+        <div className="mb-16 max-w-6xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl sm:text-4xl font-bold mb-4">
+              The Old Way of Building Online Businesses vs The AI-Powered Way
+            </h2>
+            <p className="text-xl text-white/90">
+              Why waste years learning code when AI can build your business in weeks?
+            </p>
           </div>
-          <h3 className="text-3xl font-bold mb-4">Why Now?</h3>
-          <p className="text-lg text-white/90 leading-relaxed">
-            The intersection of advanced AI models and no-code tools has created an unprecedented moment for rapid product development. Seize the opportunity to innovate and dominate your niche now.
-          </p>
+
+          <div className="grid md:grid-cols-2 gap-8">
+            {/* The Old Way */}
+            <div className="bg-red-50 border-4 border-red-400 rounded-2xl p-8 shadow-xl">
+              <div className="flex justify-center mb-6">
+                <svg className="w-16 h-16 text-red-500" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M10 14H5.236a2 2 0 01-1.789-2.894l3.5-7A2 2 0 018.736 3h4.018a2 2 0 01.485.06l3.76.94m-7 10v5a2 2 0 002 2h.096c.5 0 .905-.405.905-.904 0-.715.211-1.413.608-2.008L17 13V4m-7 10h2m5-10h2a2 2 0 012 2v6a2 2 0 01-2 2h-2.5" />
+                </svg>
+              </div>
+              <h3 className="text-3xl font-bold text-red-600 text-center mb-6">The Old Way</h3>
+              <ul className="space-y-4">
+                <li className="flex items-start gap-3">
+                  <span className="text-2xl text-red-500 flex-shrink-0">✗</span>
+                  <span className="text-gray-900 text-lg">Spend months learning to code</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-2xl text-red-500 flex-shrink-0">✗</span>
+                  <span className="text-gray-900 text-lg">Hire expensive developers ($5,000+ per project)</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-2xl text-red-500 flex-shrink-0">✗</span>
+                  <span className="text-gray-900 text-lg">Wait weeks for simple changes</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-2xl text-red-500 flex-shrink-0">✗</span>
+                  <span className="text-gray-900 text-lg">Struggle with technical issues alone</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-2xl text-red-500 flex-shrink-0">✗</span>
+                  <span className="text-gray-900 text-lg">Miss opportunities while competitors move fast</span>
+                </li>
+              </ul>
+            </div>
+
+            {/* The New Way */}
+            <div className="bg-teal-50 border-4 border-teal-400 rounded-2xl p-8 shadow-xl">
+              <div className="flex justify-center mb-6">
+                <svg className="w-16 h-16 text-teal-500" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M14 10h4.764a2 2 0 011.789 2.894l-3.5 7A2 2 0 0115.263 21h-4.017c-.163 0-.326-.02-.485-.06L7 20m7-10V5a2 2 0 00-2-2h-.095c-.5 0-.905.405-.905.905 0 .714-.211 1.412-.608 2.006L7 11v9m7-10h-2M7 20H5a2 2 0 01-2-2v-6a2 2 0 012-2h2.5" />
+                </svg>
+              </div>
+              <h3 className="text-3xl font-bold text-teal-600 text-center mb-6">The New Way</h3>
+              <ul className="space-y-4">
+                <li className="flex items-start gap-3">
+                  <span className="text-2xl text-teal-500 flex-shrink-0">✓</span>
+                  <span className="text-gray-900 text-lg">Build SaaS products in days, not months</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-2xl text-teal-500 flex-shrink-0">✓</span>
+                  <span className="text-gray-900 text-lg">Use AI to write code, design, and deploy</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-2xl text-teal-500 flex-shrink-0">✓</span>
+                  <span className="text-gray-900 text-lg">Make changes instantly without developers</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-2xl text-teal-500 flex-shrink-0">✓</span>
+                  <span className="text-gray-900 text-lg">Launch 3 businesses in a year (even at 66!)</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-2xl text-teal-500 flex-shrink-0">✓</span>
+                  <span className="text-gray-900 text-lg">Focus on strategy while AI handles execution</span>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
 
         {/* Three Product Cards */}
