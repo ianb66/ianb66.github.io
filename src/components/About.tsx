@@ -160,7 +160,7 @@ const About = ({ onOpenModal }: AboutProps) => {
                 <h4 className="text-lg sm:text-xl font-bold text-gray-900">Living Proof It's Never Too Late</h4>
               </div>
               <p className="text-gray-700 leading-relaxed">
-                If a 66-year-old former police officer can learn Python, build AI products, master GitHub workflows, and launch multiple businesses in a year, what's your excuse? I'm living proof: age is just a number, and career transformation is possible at any stage.
+                If a 66-year-old former police officer can learn Python, build AI products, master GitHub workflows, and launch multiple softwares in a year, what's your excuse? I'm living proof: age is just a number, and career transformation is possible at any stage.
               </p>
             </div>
           </div>
@@ -170,7 +170,7 @@ const About = ({ onOpenModal }: AboutProps) => {
         <div className="mb-16 bg-gray-50 rounded-2xl p-8 md:p-12">
           <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-6">My Mission</h3>
           <p className="text-lg text-gray-700 leading-relaxed mb-4">
-            I'm building tools and education that democratize AI and marketing for everyday people. Whether it's competitive analysis for affiliates, Socratic learning for homeschoolers, or instant product reviews for marketers, my goal is the same: make complex technology accessible and actionable.
+            I'm building tools and education that democratise AI and marketing for everyday people. Whether it's competitive analysis for affiliates, Socratic learning for homeschoolers, or instant product reviews for marketers, my goal is the same: make complex technology accessible and actionable.
           </p>
           <p className="text-lg text-gray-700 leading-relaxed">
             I'm especially passionate about showing affiliate marketers how to leverage AI for competitive advantage—because I've lived both sides. I know what it's like to be the outsider looking at tech, and I know how to bridge that gap.
