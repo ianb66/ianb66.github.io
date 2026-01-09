@@ -170,10 +170,24 @@ const About = ({ onOpenModal }: AboutProps) => {
         <div className="mb-16 bg-gray-50 rounded-2xl p-8 md:p-12">
           <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-6">My Mission</h3>
           <p className="text-lg text-gray-700 leading-relaxed mb-4">
-            I'm building tools and education that democratise AI and marketing for everyday people. Whether it's competitive analysis for affiliates, Socratic learning for homeschoolers, or instant product reviews for marketers, my goal is the same: make complex technology accessible and actionable.
+            I build AI tools and systems that solve the problems you face every day—not the ones that require a team of developers to solve.
           </p>
-          <p className="text-lg text-gray-700 leading-relaxed">
-            I'm especially passionate about showing affiliate marketers how to leverage AI for competitive advantage—because I've lived both sides. I know what it's like to be the outsider looking at tech, and I know how to bridge that gap.
+          <p className="text-lg text-gray-700 leading-relaxed mb-4">
+            When you're wearing six hats, managing a lean team, and competing against companies with 10x your budget, you don't need another "game-changing" platform that takes weeks to learn. You need tools that work immediately and systems that scale without hiring developers.
+          </p>
+          <p className="text-lg text-gray-700 leading-relaxed mb-4">
+            <strong>That's what I build:</strong>
+          </p>
+          <ul className="list-disc list-inside text-lg text-gray-700 leading-relaxed mb-4 space-y-2">
+            <li><strong>Competitive analysis</strong> that shows you exactly what's working for your competitors—so you can adapt and win</li>
+            <li><strong>Content creation systems</strong> that let you produce more without sacrificing quality</li>
+            <li><strong>Marketing automation</strong> that runs in the background while you focus on strategy</li>
+          </ul>
+          <p className="text-lg text-gray-700 leading-relaxed mb-4">
+            I've spent the last year proving that AI isn't just for enterprises with massive budgets. It's for smart operators who know how to leverage the right tools at the right time. Every product I build, every system I share, is designed for one thing: <strong>helping you do more with less, faster.</strong>
+          </p>
+          <p className="text-lg text-gray-700 leading-relaxed font-semibold">
+            No fluff. No hype. Just practical AI implementation that drives real business results.
           </p>
         </div>
 
