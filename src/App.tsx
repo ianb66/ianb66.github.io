@@ -6,6 +6,7 @@ import About from './components/About';
 import ToolsResources from './components/ToolsResources';
 import Footer from './components/Footer';
 import EmailSignupModal from './components/EmailSignupModal';
+import CookieBanner from './components/CookieBanner';
 
 function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -19,6 +20,7 @@ function App() {
       <ToolsResources />
       <Footer />
       <EmailSignupModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
+      <CookieBanner />
     </div>
   );
 }
