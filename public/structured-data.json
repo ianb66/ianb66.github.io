@@ -1,0 +1,97 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://ianjbarwell.com/#person",
+      "name": "Ian Barwell",
+      "url": "https://ianjbarwell.com",
+      "image": "https://ianjbarwell.com/ijb-logo.svg",
+      "sameAs": [],
+      "jobTitle": "AI-Powered Affiliate Marketer & SaaS Developer",
+      "worksFor": {
+        "@id": "https://ianjbarwell.com/#organization"
+      },
+      "description": "Building AI-powered SaaS products and automating affiliate marketing strategies. Specialising in tools that help businesses leverage AI for growth and efficiency.",
+      "email": "ian@ianjbarwell.com",
+      "knowsAbout": [
+        "Artificial Intelligence",
+        "SaaS Development",
+        "Affiliate Marketing",
+        "Marketing Automation",
+        "AI Tools",
+        "Business Development"
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://ianjbarwell.com/#organization",
+      "name": "Ian Barwell",
+      "url": "https://ianjbarwell.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://ianjbarwell.com/ijb-logo.svg"
+      },
+      "founder": {
+        "@id": "https://ianjbarwell.com/#person"
+      },
+      "description": "AI-powered SaaS products and affiliate marketing tools for modern businesses"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://ianjbarwell.com/#website",
+      "url": "https://ianjbarwell.com",
+      "name": "Ian Barwell | AI-Powered Affiliate Marketing & SaaS Development",
+      "description": "Learn how I use AI to build SaaS products, automate affiliate marketing, and scale online businesses. Tools, strategies, and resources for tech-savvy entrepreneurs.",
+      "publisher": {
+        "@id": "https://ianjbarwell.com/#organization"
+      },
+      "inLanguage": "en-GB"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "CompeteWithClaude",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "description": "AI-powered competitive analysis tool",
+      "creator": {
+        "@id": "https://ianjbarwell.com/#person"
+      }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "ProPageReview",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "description": "Professional page review and optimisation tool",
+      "creator": {
+        "@id": "https://ianjbarwell.com/#person"
+      }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "ThinkLearn",
+      "applicationCategory": "EducationalApplication",
+      "operatingSystem": "Web",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "description": "AI-powered learning and knowledge management platform",
+      "creator": {
+        "@id": "https://ianjbarwell.com/#person"
+      }
+    }
+  ]
+}

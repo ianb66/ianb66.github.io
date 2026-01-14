@@ -1,0 +1,12 @@
+# robots.txt for ianjbarwell.com
+
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://ianjbarwell.com/sitemap.xml
+
+# Disallow crawling of certain paths (if needed in future)
+# User-agent: *
+# Disallow: /admin/
+# Disallow: /private/
