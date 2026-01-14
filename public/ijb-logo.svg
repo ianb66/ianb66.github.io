@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 50">
+  <!-- Background rectangle with rounded corners -->
+  <rect x="0" y="0" width="280" height="50" rx="8" ry="8" fill="#1ca9ad"/>
+  
+  <!-- Text -->
+  <text x="140" y="32" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white" text-anchor="middle">
+    IJB | Affiliate Marketer
+  </text>
+</svg>
