@@ -117,7 +117,7 @@ const ToolsResources: React.FC = () => {
       icon: '💼',
       description: 'ClickBank\'s elite affiliate training program teaching advanced strategies for promoting high-converting digital products',
       usage: 'The Ambassador Program taught me how to identify winning offers and scale campaigns on ClickBank\'s marketplace',
-      link: 'https://hop.clickbank.net/?vendor=ambsador&affiliate=ambprog&cbpage=jv',
+      link: 'https://hop.clickbank.net/?affiliate=ambprog&vendor=ambsador&cbpage=sales',
       buttonText: 'Join Now'
     },
     {
