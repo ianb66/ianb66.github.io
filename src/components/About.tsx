@@ -199,7 +199,7 @@ const About = ({ onOpenModal }: AboutProps) => {
             <div className="flex items-start gap-4">
               <Rocket className="w-8 h-8 text-teal-600 flex-shrink-0" />
               <div>
-                <h4 className="text-lg font-bold text-gray-900 mb-2">AI-Powered Product Creation Platform (January 2026)</h4>
+                <h4 className="text-lg font-bold text-gray-900 mb-2">AI-Powered Product Creation Platform (February 2026)</h4>
                 <p className="text-gray-700">So you can create any product you dream of with AI</p>
               </div>
             </div>
